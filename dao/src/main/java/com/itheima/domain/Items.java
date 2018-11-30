@@ -74,4 +74,9 @@ public class Items implements Serializable {
                 ", detail='" + detail + '\'' +
                 '}';
     }
+
+    public Items() {
+        super ();
+        System.out.println ("1213");
+    }
 }
